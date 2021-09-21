@@ -1,0 +1,19 @@
+//
+//  Staging.xcconfig
+// GamesDemo
+//
+//  Created by ispha on 20/09/2021.
+//  Copyright © 2021 ispha. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-GmesDemo/Pods-GmesDemo.release (staging).xcconfig"
+
+// Server URL
+ROOT_URL = https:/$()/api.rawg.io/api/
+IMG_URL = https:/$()/www.metaweather.com/static/img/weather/png/_abbr_.png
+
+// App Settings
+APP_NAME =GamesDemo (staging)
+APP_BUNDLE_ID = ispha.come.GmesDemo.staging

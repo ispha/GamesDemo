@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="149" id="KGk-i7-Jjw" customClass="GameTableViewCell" customModule="GamesDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="443" height="149"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="443" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="af175e6a32cd6f7424cc55beac3c5f7f (1) 1" translatesAutoresizingMaskIntoConstraints="NO" id="fiB-8g-kp5">
+                        <rect key="frame" x="16" y="22.5" width="120" height="104"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="104" id="1YE-dO-wib"/>
+                            <constraint firstAttribute="width" constant="120" id="Seo-NW-Scs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grand THeft Auto V" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTQ-ol-dKr">
+                        <rect key="frame" x="152" y="22.5" width="271" height="24"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Action, puzzle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXz-It-hEy">
+                        <rect key="frame" x="152" y="111" width="82" height="15.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="metacritic: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQA-M5-b9l">
+                        <rect key="frame" x="152" y="86" width="74.5" height="17.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="89" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQL-Oo-fTu">
+                        <rect key="frame" x="226.5" y="83" width="22.5" height="24"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                        <color key="textColor" red="0.75686274509999996" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AQA-M5-b9l" firstAttribute="leading" secondItem="dXz-It-hEy" secondAttribute="leading" id="1pU-sk-4PW"/>
+                    <constraint firstItem="dXz-It-hEy" firstAttribute="top" secondItem="AQA-M5-b9l" secondAttribute="bottom" constant="7.5" id="5T1-rk-9po"/>
+                    <constraint firstItem="fiB-8g-kp5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ATo-KD-2q5"/>
+                    <constraint firstItem="fQL-Oo-fTu" firstAttribute="leading" secondItem="AQA-M5-b9l" secondAttribute="trailing" id="JmR-BG-dkY"/>
+                    <constraint firstItem="XTQ-ol-dKr" firstAttribute="top" secondItem="fiB-8g-kp5" secondAttribute="top" id="QFz-W5-QNv"/>
+                    <constraint firstItem="dXz-It-hEy" firstAttribute="bottom" secondItem="fiB-8g-kp5" secondAttribute="bottom" id="Rta-z9-xg6"/>
+                    <constraint firstItem="dXz-It-hEy" firstAttribute="leading" secondItem="XTQ-ol-dKr" secondAttribute="leading" id="TAt-EF-r5O"/>
+                    <constraint firstItem="fQL-Oo-fTu" firstAttribute="centerY" secondItem="AQA-M5-b9l" secondAttribute="centerY" id="aeq-tz-EPv"/>
+                    <constraint firstItem="fiB-8g-kp5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22.5" id="dQv-3t-tis"/>
+                    <constraint firstItem="XTQ-ol-dKr" firstAttribute="leading" secondItem="fiB-8g-kp5" secondAttribute="trailing" constant="16" id="mqV-Pd-L17"/>
+                    <constraint firstAttribute="trailing" secondItem="XTQ-ol-dKr" secondAttribute="trailing" constant="20" id="v6Y-yz-mYK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgV_backgroundImage" destination="fiB-8g-kp5" id="E23-bA-8eL"/>
+                <outlet property="lbl_gameName" destination="XTQ-ol-dKr" id="Rpp-1I-nIX"/>
+                <outlet property="lbl_geners" destination="dXz-It-hEy" id="siv-m9-hoz"/>
+                <outlet property="lbl_metratics" destination="fQL-Oo-fTu" id="0jF-Zf-LWD"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="131.58482142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="af175e6a32cd6f7424cc55beac3c5f7f (1) 1" width="120" height="104"/>
+    </resources>
+</document>
